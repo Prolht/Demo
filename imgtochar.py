@@ -12,7 +12,7 @@ def get_char(r,g,b,alpha = 256):
 if __name__ == '__main__':
     WIDTH=80
     HEIGHT=80
-    im = Image.open('wm.png')
+    im = Image.open('mv.jpg')
     im = im.resize((WIDTH,HEIGHT),Image.NEAREST)
 
     txt = ""
